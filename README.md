@@ -1,6 +1,6 @@
-# csv-parse-to-csv
-# Author: Ian A. Wardell
-# Description: This script intakes a.csv file and outputs the first 5 columns into a.txt file; parse a user specified CSV file into one .txt per row
+# xlsx-parse-to-csv
+ Author: Ian A. Wardell
+ Description: This script intakes a.csv file and outputs the first 5 columns into a.txt file; parse a user specified CSV file into one .txt per row
 
 Usage: 
 In Bash ./csv_to_txt.py -f sample.csv
