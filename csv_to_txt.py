@@ -1,6 +1,7 @@
 #!/usr/bin/python
-
-#- * -coding: utf - 8 - * -#Description: This script intakes a.csv file and outputs the first 5 columns into a.txt file
+#- * -coding: utf - 8 - * -
+#Author: Ian A. Wardell
+#Description: This script intakes a.csv file and outputs the first 5 columns into a.txt file
 import argparse
 import csv
 import os
