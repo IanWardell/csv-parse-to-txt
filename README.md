@@ -16,5 +16,6 @@ File -> Save As -> Select 'CSV UTF-8 (comma delimated) (*.csv)' from drop down -
 
 Steps to use:
 1) Delete colum heading from the Excel file 
-2) Ronvert .xlsx to .csv
+2) Convert .xlsx to .csv
 3) Run the python script ./csv_to_txt.py -f sample.csv
+4) Open the output folder to view results
