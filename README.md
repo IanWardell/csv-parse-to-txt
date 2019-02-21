@@ -2,7 +2,8 @@
 # Author: Ian A. Wardell
 # Description: This script intakes a.csv file and outputs the first 5 columns into a.txt file; parse a user specified CSV file into one .txt per row
 
-Usage:in Bash ./csv_to_txt.py -f sample.csv
+Usage: 
+In Bash ./csv_to_txt.py -f sample.csv
 
 Requirements: 
 - input file must be a .csv file 
