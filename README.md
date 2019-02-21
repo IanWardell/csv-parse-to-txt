@@ -16,7 +16,7 @@ How to convert .xlsx (Microsoft Excel) to .csv:
 File -> Save As -> Select 'CSV UTF-8 (comma delimated) (*.csv)' from drop down -> Save 
 
 Steps to use:
-1) Delete column heading from the Excel file 
+1) Delete column heading row from the Excel file 
 2) Convert .xlsx to .csv
 3) Run the python script ./csv_to_txt.py -f sample.csv
 4) Open the output folder to view results
