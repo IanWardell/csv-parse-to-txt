@@ -31,7 +31,7 @@ for row in reader:
 	# create each output file, set name to the content in the title column
 	output_file_name = output_path + "/%d_%s_%s.txt" % (filenumberian,row[0], row[3])
 	filenumberian += 1
-	output_file = open(output_file_name, 'ab+')# print row[column]# output_file.write("\n")
+	output_file = open(output_file_name, 'ab+')
 	output_file.write(row[0] + "\n")
 	output_file.write(row[1] + "\n")
 	output_file.write(row[3] + "\n")#[last]
@@ -39,12 +39,12 @@ for row in reader:
 	output_file.write(row[5] + "\n")#[state]
 	output_file.write(row[6] + "\n")#[party]
 	output_file.write(row[7] + "\n")#[title]
-	output_file.write(row[8] + "\n")#[link]# output_file.write(row[9] + "\n")#[title_2], skiping
+	output_file.write(row[8] + "\n")#[link]
 	output_file.write(row[11] + "\n")#[date]
 	output_file.write(row[10] + "\n")#[cleantext]
 	output_file.write(row[12] + "\n")#[tone]
 	output_file.write(row[14] + "\n")#[Political / regular]
 	output_file.write(row[15] + "\n")#[Counter - majoritarian]
-	output_file.write(row[16] + "\n")#[Democratic process]# col_num += 1
+	output_file.write(row[16] + "\n")#[Democratic process]
 	output_file.close
 print "Output location is the directory %s" % output_path
